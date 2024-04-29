@@ -1,0 +1,12 @@
+div#status {
+  background-color: lightgrey;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  label#num {
+    flex: 1;
+  }
+}

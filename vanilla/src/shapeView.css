@@ -1,0 +1,21 @@
+#list > div.shape {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border: 1px solid lightgrey;
+}
+
+#list > .selected {
+  outline: 1px solid blue;
+  outline-offset: 2px;
+}
+
+#list > .shape:hover {
+  outline: 4px solid lightblue;
+  outline-offset: 0px;
+}
+
+#list > .shape:hover.selected {
+  outline: 4px solid blue;
+  outline-offset: 0px;
+}

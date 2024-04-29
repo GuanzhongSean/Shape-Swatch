@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0;
+  }
+
+  * {
+    @apply box-border font-['Arial','sans-serif'] text-base;
+  }
+
+  #app {
+    @apply flex h-[100vh] bg-[#f5f5f5];
+  }
+
+  button {
+    @apply bg-gray-200 min-w-[80px]
+           border border-gray-600 rounded-sm
+           hover:bg-gray-300 active:bg-gray-100;
+  }
+
+  button:disabled {
+    @apply bg-gray-200 cursor-not-allowed opacity-50;
+  }
+
+  input {
+    @apply p-1 border border-black rounded-sm w-[80px];
+  }
+
+  input:invalid {
+    @apply outline outline-[2px] outline-red-500;
+  }
+
+  select {
+    @apply p-[1px] border border-black rounded-sm min-w-[80px];
+  }
+}

@@ -1,0 +1,13 @@
+div#list {
+  display: flex;
+  display: flex;
+  background-color: white;
+  flex: 1;
+  flex-flow: row wrap;
+  padding: 20px;
+  gap: 20px;
+  align-content: flex-start;
+  overflow-x: auto;
+  align-content: flex-start;
+  overflow-x: auto;
+}

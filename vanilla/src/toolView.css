@@ -1,0 +1,16 @@
+div#tool {
+  background-color: lightgrey;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+div#tool > button {
+  width: 80px;
+}
+
+div#tool > select#shapeMenu {
+  width: 85px;
+}

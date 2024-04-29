@@ -1,0 +1,13 @@
+/* styles for main app container */
+
+div#app {
+  background-color: whitesmoke;
+  display: flex;
+  height: 100vh;
+}
+
+div#left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
